@@ -16,8 +16,6 @@ spec:
       labels:
         app.kubernetes.io/name: spa-token-demo
     spec:
-      imagePullSecrets:
-        - name: ghcr-pull-secret
       securityContext:
         runAsNonRoot: true
         runAsUser: 1000
